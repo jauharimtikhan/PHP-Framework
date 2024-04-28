@@ -15,7 +15,7 @@
       "email": "bangjoe.muns@gmail.com"
     }
   ],
-  "Minimum-stability":"alpha",
+  "minimum-stability":"stable",
   "require": {
     "symfony/http-foundation": "^6.4",
     "symfony/routing": "^6.4",
