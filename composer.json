@@ -1,0 +1,24 @@
+{
+  "name": "jauhar/framework",
+  "description": "this is framework php",
+  "type": "project",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Jauhar\\System\\": "System/",
+      "App\\": "app/"
+    }
+  },
+  "authors": [
+    {
+      "name": "jauhar-imtikhan",
+      "email": "bangjoe.muns@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "symfony/http-foundation": "^6.4",
+    "symfony/routing": "^6.4",
+    "vlucas/phpdotenv": "^5.6"
+  }
+}
